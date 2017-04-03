@@ -1,0 +1,73 @@
+ <% include partials/header.ejs %>
+
+ <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+  <body class="hold-transition skin-blue layout-top-nav">
+    <div class="wrapper">
+
+      <header class="main-header">
+      	<% include partials/nav.ejs %>
+      </header>
+
+      <!-- Full Width Column -->
+      <div class="content-wrapper">
+        <div class="container">
+          <!-- Content Header (Page header) -->
+          <section class="content-header">
+            <h1>
+              Questions               
+            </h1>
+            
+          </section>
+
+          <!-- Main content -->
+          <section class="content">
+            <div class="callout callout-info">
+              <h4>Tip!</h4>
+              <p> <strong>Welcome to JAMB QUIZ APPLICATION:</strong> To start, select a subject below, Note that the quiz is time as in the real JAMB CBT exam. You can only take One subject at a time. Check the leaderbaord for rank among other applicants. </p>
+            </div>
+            
+            <div class="box box-default">
+              <div class="box-header with-border">
+                <h3 class="box-title">Subjects </h3>
+              </div>
+              <div class="box-body">
+                 <!-- Small boxes (Stat box) -->
+              <div class="row">&nbsp; &nbsp; &nbsp; </div>
+          <div class="row">
+            <div class=" col-lg-offset-2 col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="ENGLISH">ENGLISH</button>
+            </div><!-- ./col -->
+            <div class="col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="MATHEMATICS">MATHEMATICS</button>
+            </div><!-- ./col -->
+            <div class="col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="CHEMISTRY">CHEMISTRY</button>
+            </div><!-- ./col -->
+            <div class="col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="PHYSICS">PHYSICS</button>
+            </div>
+          </div><!-- /.row1 -->
+         <div class="row">&nbsp; &nbsp; &nbsp; </div>
+          <div class="row">
+            <div class=" col-lg-offset-2 col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="ECONOMICS">ECONOMICS</button>
+            </div><!-- ./col -->
+            <div class="col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="COMMERCE">COMMERCE</button>
+            </div><!-- ./col -->
+            <div class="col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="GOVERNMENT">GOVERNMENT</button>
+            </div><!-- ./col -->
+            <div class="col-lg-2 col-xs-6">
+              <button type="button" class="btn btn-primary btn-block" id="subject" value="BIOLOGY">BIOLOGY</button>
+          </div><!-- /.row2 -->
+
+
+              </div><!-- /.box-body --> 
+            </div><!-- /.box -->
+          </section><!-- /.content -->
+        </div><!-- /.container -->
+        <div class="row">&nbsp; &nbsp; &nbsp; </div>
+      </div><!-- /.content-wrapper -->
+
+     <% include partials/nav.ejs %>
