@@ -1,0 +1,14 @@
+{
+  "name": "quiz-app",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "latest",
+    "express": "latest",
+    "firebase": "^3.7.3",
+    "morgan": "^1.8.1"
+  }
+}
